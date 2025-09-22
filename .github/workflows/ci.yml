@@ -32,7 +32,7 @@ jobs:
         with:
           path: |
             **/build/distributions/*
-e2e-integration:
+  e2e-integration:
     name: E2E Integration test
     needs: build
     runs-on: ubuntu-latest
